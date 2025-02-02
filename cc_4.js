@@ -11,3 +11,17 @@ if (purchaseAmount > 100) {
 let discountRate = 0.2;
 let finalAmount = purchaseAmount - (purchaseAmount * discountRate);
 console.log(`The final amount after discount: $${finalAmount}`);
+
+
+//Task 2: Sales Report
+//Declare an array sales with at least five sales figures.
+let sales =[100, 250, 150, 300, 200];
+//Use a for loop to calculate the total sales.
+let totalSales = 0;
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i];
+}
+//Log the total sales to the console using a template literal.
+console.log(`Total Sales: $${totalSales}`);
+
+
