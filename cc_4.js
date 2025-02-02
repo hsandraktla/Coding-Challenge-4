@@ -30,8 +30,21 @@ console.log(`Total Sales: $${totalSales}`);
 let stock = 10;
 //Use a while loop to decrease stock until it reaches zero.
 while (stock > 0) {
-    console.log(`Stock Remaining: $${stock}`);
+    console.log(`Stock Remaining: ${stock}`);
     stock--; //decrement count by 1
 }
 //Log each decrement to the console using a template literal.
 console.log("Out of Stock!!!");
+
+
+//Task 4: Customer Survey
+//Declare a variable responses with an initial value of zero.
+let responses = 0;
+//Use a do...while loop to collect responses, simulating user input with responses++ until it reaches 3.
+do {
+    console.log(`Response Count: ${responses}`);
+    responses++;
+} while (responses < 3);
+//Log each response count to the console using a template literal.
+console.log("Thanks for Your Feedback!");
+
