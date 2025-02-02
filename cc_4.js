@@ -78,3 +78,16 @@ let orders = [101, 102, 103, 104, 105];
 orders.forEach(order => {
     console.log(`Order ID: ${order}`);
 });
+
+
+//Task 8: Tax Calculation
+//Write a function calculateTax that takes an amount and tax rate.
+let amount = 1000;
+let taxRate = 0.1;
+function calculateTax(amount, taxRate) {
+    return amount * taxRate; //Return the calculated tax.
+}
+//Log the result to the console using a template literal.
+console.log(`Tax Amount: $${calculateTax(amount, taxRate)}`);
+
+
