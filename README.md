@@ -1,0 +1,1 @@
+This project is a JavaScript Coding Challenge focused on control flow structures and functions. It includes 10 tasks that test various JavaScript concepts such as conditional statements, loops, and different ways to declare functions.
