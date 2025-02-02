@@ -25,3 +25,13 @@ for (let i = 0; i < sales.length; i++) {
 console.log(`Total Sales: $${totalSales}`);
 
 
+//Task 3: Inventory Depletion
+//Declare a variable stock with an initial value of 10.
+let stock = 10;
+//Use a while loop to decrease stock until it reaches zero.
+while (stock > 0) {
+    console.log(`Stock Remaining: $${stock}`);
+    stock--; //decrement count by 1
+}
+//Log each decrement to the console using a template literal.
+console.log("Out of Stock!!!");
