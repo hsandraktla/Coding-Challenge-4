@@ -97,7 +97,13 @@ const applyDiscount = function(price, discountPercentage) {
     return price - (price * discountPercentage); //Return the discounted price.
 };
 //Log the result to the console using a template literal.
-let price = 2000;
-let discountPercentage = 0.1;
 let discountedPrice = applyDiscount(2000, 0.1);
 console.log(`Discounted Price: $${discountedPrice}`);
+
+
+//Task 10: Loyalty Points
+//Write an arrow function calculatePoints that takes a purchase amount and returns points earned (1 point per $10 spent).
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount/10);
+//Log the result to the console using a template literal.
+let pointsEarned = calculatePoints(150);
+console.log(`You have earned ${pointsEarned} points from this purchase.`);
