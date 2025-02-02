@@ -48,3 +48,15 @@ do {
 //Log each response count to the console using a template literal.
 console.log("Thanks for Your Feedback!");
 
+
+//Task 5: Employee Information
+//Declare an object employee with properties: { name: "Alice", position: "Manager", salary: 75000 }.
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};
+//Use a for...in loop to iterate through the object properties.
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`); //Log each property and value to the console using a template literal.
+};
