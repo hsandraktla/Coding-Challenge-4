@@ -69,3 +69,12 @@ let products = ["Laptop", "Mouse", "Keyboard", "Monitor", "Charger"];
 for (let product of products) {
     console.log(`Product Name: ${product}`); //Log each product name to the console using a template literal.
 };
+
+
+//Task 7: Order Processing
+//Declare an array orders with at least three order IDs.
+let orders = [101, 102, 103, 104, 105];
+//Use the forEach() method to log each order ID to the console using a template literal.
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`);
+});
